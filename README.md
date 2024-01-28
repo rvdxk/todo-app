@@ -147,12 +147,14 @@ json
 - **Get Info Properties:**
 - Endpoint: GET http://localhost:8080/tasks/info/prop
 
-## Screenshots
+## Screenshots <br>
+![Screenshot (68)](https://github.com/rvdxk/todo-app/assets/136000622/8328e812-90f8-4b1a-8e4a-cb3d27199a65)<br>
+![Screenshot (69)](https://github.com/rvdxk/todo-app/assets/136000622/370ea919-b2cb-45e7-b948-3c2a92b32396)<br>
+![Screenshot (70)](https://github.com/rvdxk/todo-app/assets/136000622/9a83188c-1154-439d-9795-c3b5faf5697c)<br>
+![Screenshot (72)](https://github.com/rvdxk/todo-app/assets/136000622/ad963c32-d66b-4020-8da0-7bdb92b879da)<br>
 
-![Screenshot (72)](https://github.com/rvdxk/todo-app/assets/136000622/ad963c32-d66b-4020-8da0-7bdb92b879da)
-![Screenshot (70)](https://github.com/rvdxk/todo-app/assets/136000622/9a83188c-1154-439d-9795-c3b5faf5697c)
-![Screenshot (69)](https://github.com/rvdxk/todo-app/assets/136000622/370ea919-b2cb-45e7-b948-3c2a92b32396)
-![Screenshot (68)](https://github.com/rvdxk/todo-app/assets/136000622/8328e812-90f8-4b1a-8e4a-cb3d27199a65)
+
+
 
 ## Important Notes
 Ensure that your IDE, JDK, Postman, and web browser are set up and running.

@@ -3,13 +3,13 @@
 Welcome to the Todo application, a project built with Java and the Spring Boot framework. This comprehensive task management system integrates various technologies, including SQL, JDBC, ORM (Object-Relational Mapping), Hibernate, Spring Data, JUnit for testing, Dependency Injection, Thymeleaf for the frontend, and Spring Web. The application uses an H2 database with an empty username and password for simplicity.
 
 ## Table of Contents
-- [Technologies Used](#Technologies)
+- [Technologies Used](#Technologies_Used)
 - [Prerequisites](#Prerequisites)
-- [Getting Started](#Getting)
+- [Getting Started](#Getting_Started)
 - [Screenshots](#Screenshots)
-- [Important Notes](#Important)
+- [Important Notes](#Important_Notes)
 
-## Technologies Used
+## Technologies
 - Java
 - Spring Boot
 - SQL

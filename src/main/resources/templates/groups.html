@@ -57,16 +57,16 @@
         </dd>
     </dl>
     <fieldset>
-            <legend>New group</legend>
-            <!--/*@thymesVar id="message" type="io.github.rvdxk.model.projection.GroupWriteModel"*/-->
+        <legend>New group</legend>
+        <!--/*@thymesVar id="message" type="io.github.rvdxk.model.projection.GroupWriteModel"*/-->
         <form action="#" method="post" th:action="@{/groups}" th:object="${group}">
             <p class="C(red)" th:if="${#fields.hasAnyErrors()}" th:errors="*{all}"></p>
-            <label>Opis
+            <label>Description
                 <input type="text" th:field="*{description}" th:errorclass="'Bdc(red)'" />
             </label>
             <fieldset th:each="task,taskStat : *{tasks}">
-                <legend th:text="|Zadanie ${taskStat.index + 1}|"></legend>
-                <label>Opis
+                <legend th:text="|Task ${taskStat.index + 1}|"></legend>
+                <label>Description
                     <input type="text" th:field="*{tasks[__${taskStat.index}__].description}"
                            th:errorclass="'Bdc(red)'" />
                 </label>
@@ -78,12 +78,12 @@
             <div>
                 <button type="submit" name="addTask">+</button>
             </div>
-                <p>
-                    <button type="submit">Add</button>
-                    <button type="reset">Clear</button>
-                </p>
-            </form>
-        </fieldset>
+            <p>
+                <button type="submit">Add</button>
+                <button type="reset">Clear</button>
+            </p>
+        </form>
+    </fieldset>
 </main>
 </body>
 </html>
